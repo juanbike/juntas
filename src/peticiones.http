@@ -1,0 +1,64 @@
+
+### Obteniendo todas las publicaciones
+https://jsonplaceholder.typicode.com/posts
+
+### Obteniendo una publicacion
+https://jsonplaceholder.typicode.com/posts/1
+
+### Probando Post en el proyecto
+Post http://localhost:3000/product/create
+Content-Type: application/json
+
+{
+    "name": "Bicicleta Santa Cruz Superlight Rin29 Cannondale Specialized",
+    "description": "Bicicleta marca santa cruz modelo superlight rin 29 , vendo o cambio por otra de menor valor y diferencia a mi favor ... Numero real de ref:1600 abierto a cualquier negociación",
+    "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_719915-MLV49317274299_032022-O.webp",
+    "price": 15
+
+ }
+ 
+
+
+### Recuperar todos los productos de la BD
+GET http://localhost:3000/product/products
+
+### Recuperando un solo producto
+GET http://localhost:3000/product/62728bdb0d551bb1f3fd3cbf
+
+### Eliminar un producto
+DELETE http://localhost:3000/product/62728bdb0d551bb1f3fd3cbf
+
+### Actualizar Producto
+PUT http://localhost:3000/product/627292f70d551bb1f3fd3cc1
+Content-Type: application/json
+
+{
+         "name": "Impresora Multifuncional Hp Ink Advantage 2774",
+      "description": "Escaneo de cama plana en formatos JPEG, TIFF, PDF, BMP, PNG; Hasta 9 copias",
+      "imageUrl": "https://falabella.scene7.com/is/image/Falabella/15955887_1?wid=1500&hei=1500&qlt=70",
+      "price": 62.77
+
+}
+
+
+
+
+
+
+
+
+
+
+
+### Creando una publicacion
+ Post https://jsonplaceholder.typicode.com/posts
+ Content-Type: application/json
+ {
+    "title": "Aprendiendo a utilizar NestJS",
+    "body": "Fazt es un iluminati"
+ }
+ 
+
+
+
+
